@@ -1,0 +1,116 @@
+/* Course list cleanup */
+#menu_enrollments .ellipsis {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: initial;
+}
+
+#menu_enrollments .subtitle {
+    display: none;
+}
+
+/* Remove left-nav scrollbar */
+#left-side {
+    overflow: visible;
+}
+
+/* I don't know why the help button is the wrong color */
+#identity #identity-help-container .help_dialog_trigger {
+    color: white;
+    font-weight: normal;
+}
+
+/* You probably don't need to know what semester it is */
+#left-side #section-tabs-header-subtitle {
+    display: none;
+}
+
+.mini_calendar .day.today {
+    background-color: #79BCE9;
+}
+
+.mini-cal-header {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+/* Probably illegal */
+#header-logo-secondary {
+    display: none;
+}
+
+/* Show full discussion summaries */
+.discussion-summary.ellipsis {
+    white-space: normal;
+    line-height: 1em;
+}
+
+.discussion-topic:hover {
+    background: #79BCE9 !important;
+}
+
+/* Syllabus */
+#syllabus thead th {
+    background-color: #1F578A;
+}
+
+/* Assignments */
+.assignment-date-available {
+    float: left;
+}
+
+.assignment-date-due {
+    float: left;
+    clear: both;
+}
+
+.js-score {
+    float: right;
+}
+
+/* Grades styling */
+#grades_summary {
+    border-radius: 4px;
+}
+
+#grades_summary tr>* {
+    border-top: 1px solid;
+    padding: 5px 0px;
+}
+
+#grades_summary thead th {
+    background-color: #1F578A;
+}
+
+#grades_summary tr.group_total th[scope="row"], #grades_summary tr.group_total td {
+    background-color: #79BCE9;
+    color: #FFFFFF;
+}
+
+#grades_summary tr.final_grade > * {
+    background-color: #1F578A;
+}
+
+/* Files */
+/* Disabled by default because some classes may use the file tree */
+/*
+.ef-main .visible-desktop.ef-folder-content {
+    display: none !important;
+}
+*/
+
+.ef-links-col {
+    flex: 0 0 89px;
+}
+
+/* Transitions */
+/* Disabled by default because not everyone likes transitions */
+/*
+.discussion-topic {
+	transition: background 0.1s ease-in-out;
+}
+
+.list-view a:hover {
+	transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+*/
